@@ -1,0 +1,12 @@
+sim:
+  ros__parameters:
+    background_r: 150
+    background_g: 200
+    background_b: 255
+
+turtle_chase:
+  ros__parameters:
+    player_speed: 4.0
+    enemy_count: 3
+    speed: 2.0
+    chase_distance: 0.5
