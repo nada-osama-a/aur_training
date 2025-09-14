@@ -12,7 +12,7 @@ class TurtleChase(Node):
     def __init__(self):
         super().__init__('turtle_chase')
 
-        self.declare_parameter("collision_distance")
+        self.declare_parameter("collision_distance", 0.5)
         self.collision_distance = self.get_parameter("collision_distance").get_parameter_value().double_value
 
         self.enemy_positions = {}
